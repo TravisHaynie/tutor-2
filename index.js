@@ -19,5 +19,7 @@ function includes(arr, str) {
 
 }
 
-console.log(includes(names, 'peter')); // true
-console.log(includes(names, 'travis')); // false
+console.log(includes(names, 'peter')); // false
+console.log(includes(names, 'travis')); // true
+console.log(includes(names, 'marcie')); // true
+console.log(includes(names, 'mark')) //false
